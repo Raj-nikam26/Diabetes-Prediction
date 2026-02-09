@@ -10,7 +10,25 @@ A Machine Learning based web application that predicts whether a person is diabe
 - Pickle
 
 ## Dataset
-- PIMA Indians Diabetes Dataset
+
+The project uses the **PIMA Indians Diabetes Dataset**, which contains medical diagnostic measurements of female patients.
+
+- Total Records: 768
+- Total Features: 8
+- Target Variable: Outcome  
+  - 0 → Non-Diabetic  
+  - 1 → Diabetic
+
+### Features
+- Pregnancies
+- Glucose
+- Blood Pressure
+- Skin Thickness
+- Insulin
+- BMI
+- Diabetes Pedigree Function
+- Age
+
 
 ## Machine Learning Model
 - Algorithm: Support Vector Machine (SVM)
@@ -43,11 +61,11 @@ Diabetes_Prediction/
 ├── README.md
 └── Diabetes_Prediction.ipynb
 
-Output
+##Output
 
 The app predicts whether a person has diabetes based on input medical parameters such as glucose level, BMI, age, etc.
 
-Author
+##Author
 
 Raj Nikam
 Github- @Raj-nikam26
