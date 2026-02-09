@@ -47,6 +47,7 @@ The project uses the **PIMA Indians Diabetes Dataset**, which contains medical d
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
+```
 
 ## Project Structure
 
@@ -61,11 +62,11 @@ Diabetes_Prediction/
 ├── README.md
 └── Diabetes_Prediction.ipynb
 
-##Output
+## Output
 
 The app predicts whether a person has diabetes based on input medical parameters such as glucose level, BMI, age, etc.
 
-##Author
+## Author
 
 Raj Nikam
 Github- @Raj-nikam26
